@@ -1,0 +1,50 @@
+{ "annuaire": [
+    {   "genre": "M", 
+        "prenom": "Pierre Louis", 
+        "nom": "Moreau de Maupertuis", 
+        "naissance": "1698-09-28", 
+        "mort": "1759-07-27", 
+        "bio": "Pierre Louis Moreau de Maupertuis, baptisé le 28 septembre 1698 à Saint-Jouan-des-Guérets près de Saint-Père-Marc-en-Poulet et de Saint-Malo et mort à Bâle le 27 juillet 1759, est un philosophe, mathématicien, physicien, astronome et naturaliste français des xviie et xviiie siècles qui contribua notamment à la diffusion des théories de Newton hors d'Angleterre, et à l'établissement du principe de moindre action."
+    },
+    {   "genre": "M", 
+        "prenom": "Jean", 
+        "nom": "Bernoulli", 
+        "naissance": "1676-08-27", 
+        "mort": "1748-01-01", 
+        "bio": "Jean Bernoulli, Johann Bernoulli, né le 27 juillet 1667 à Bâle où il est mort le 1er janvier 1748, est un mathématicien et physicien suisse. Il est le frère de Jacques Bernoulli et le père de Daniel, Nicolas et Jean."
+    },
+    {
+        "genre": "M", 
+        "prenom": "Nicolas", 
+        "nom": "Malebranche", 
+        "naissance": "1638-08-06", 
+        "mort": "1715-10-13", 
+        "bio": "Nicolas Malebranche, né à Paris le 6 août 1638 où il est mort le 13 octobre 1715 (mêmes années de naissance et de mort que le roi français Louis XIV), est un philosophe, prêtre oratorien et théologien français. Dans son œuvre, il est amené à synthétiser la pensée de saint Augustin et celle de René Descartes. Il y développe également une pensée profondément originale, d'une grande unité conceptuelle, qui intègre les nouvelles sciences de l'époque tout en se voulant conforme aux dogmes du christianisme. Par son esprit à la fois innovant et synthétique, il parvient à édifier un système explicatif remarquable qui entend résoudre toutes les questions et tous les problèmes en s'appuyant sur l'idée d'action divine."
+    
+    } ,
+    {
+        "genre": "F", 
+        "prenom": "Olympe", 
+        "nom": "de Gouges", 
+        "naissance": "1748-05-07", 
+        "mort": "1793-11-03", 
+        "bio": "Marie Gouze, veuve Aubry, dite Olympe de Gouges, née le 7 mai 1748 à Montauban et morte guillotinée le 3 novembre 1793 à Paris, est une femme de lettres française, devenue femme politique. Elle est considérée comme une des pionnières du féminisme français. Rédactrice de la Déclaration des droits de la femme et de la citoyenne, elle a laissé de nombreux écrits et pamphlets en faveur des droits civils et politiques des femmes et de l’abolition de l'esclavage des Noirs."
+    
+    } ,
+    {
+        "genre": "F", 
+        "prenom": "Émilie", 
+        "nom": "du Châtelet", 
+        "naissance": "1706-12-17", 
+        "mort": "1749-09-10", 
+        "bio": "Gabrielle Émilie Le Tonnelier de Breteuil, marquise du Châtelet (également du Chastelet, ou du Chastellet3), née le 17 décembre 1706 à Paris et morte le 10 septembre 1749 à Lunéville, est une femme de lettres, mathématicienne et physicienne française, figure du Siècle des Lumières."
+    } ,
+    {
+        "genre": "F", 
+        "prenom": "Grace", 
+        "nom": "Murray Hopper", 
+        "naissance": "1906-12-09", 
+        "mort": "1992-01-01", 
+        "bio": "Grace Murray Hopper, née le 9 décembre 1906 à New York et morte le 1er janvier 1992 dans le comté d'Arlington, est une informaticienne américaine et Rear admiral (lower half) de la marine américaine. Elle est la conceptrice du premier compilateur en 1951 (A-0 System) et du langage Cobol en 1959.."
+    }      
+]}
