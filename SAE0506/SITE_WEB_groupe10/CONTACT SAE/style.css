@@ -1,0 +1,299 @@
+@keyframes zoom {
+	from { transform: scale(0); }
+	to { transform: scale(1); }
+}
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #069D6B;
+    padding : 45px 45px ; 
+    height: 100px;
+   
+}
+header h2 {
+    padding-top: 20px;
+}
+
+.img{  
+    position: relative;
+    font-size: 50px;
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    display: inline-block;
+    color:#fff;
+    font-weight:600;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
+    left: 49.5%;
+    bottom: 120px;
+}
+
+.centre {
+    width:100%;
+    margin:auto;
+    text-align: center;
+
+}
+
+.icon {
+    background: url(./img/icon.jpg)no-repeat;
+    background-size: 8%;
+    
+}
+
+header a {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 43px;                         /*Modif*/ 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+nav {
+    text-align: center;}
+
+nav ul {
+height: 80px;
+padding-left : 0
+}
+
+nav li {
+list-style-type: none;
+display: inline;
+padding-top: 10px;}
+
+
+nav li a {
+display : inline-block;
+color :rgb(15, 15, 15);
+font-size : 20px;
+text-transform: uppercase;
+text-decoration:none;
+width: 200px;
+margin-top: 0px;
+padding : 30px 15px ; }
+
+
+
+#souligne, #souligne1{
+    height: 20px;
+    transition: 1s;
+}
+
+#souligne:hover, #souligne1:hover {
+  background-color: #EEF4D4;
+  border-radius: 20px;
+}
+
+#souligne1{
+  text-decoration: underline;
+  text-decoration-color: #069D6B;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+
+.intro  .bloc_image {
+    background: url(./img/reglement.jfif) center top no-repeat  ; 
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    transition: 250ms all ease;
+        animation-name: zoom;
+        animation-duration: 750ms;
+}
+
+.intro .oui {
+    position: relative;
+    padding-top : 110px;
+    padding-bottom: 200px;
+    color : white;
+    left: 10%;
+    margin-right: 500px;
+    line-height: 100px;
+    }
+
+.oui h1 {
+    font-size: 56px;
+}
+.oui p {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+
+ 
+#footer {
+    background-color: #069D6B;
+    height: 100px;
+    padding: 20 45 ;
+    text-align: center;
+}
+
+
+#footer a {
+    text-decoration: none;
+    color: #EEF4D4;
+    font-size: 15px;
+}
+
+#p {
+    color: #EEF4D4;
+    font-size: 13px;
+}
+
+#footer #p {
+    position: relative;
+    top: 45px;
+    left: 202px;
+    margin-right: 250px;
+
+}
+
+#minilogo {
+   padding-left: 75%;
+   position: relative;
+   bottom: 15px;
+   
+   
+}
+
+
+
+.icon1 {
+    background: url(./img/calais.png)no-repeat;
+    background-size: 6%;
+    margin-right: 150px;
+}
+
+#reglementation h1 {
+    color: #363D59;
+    padding-top : 110px;
+    
+
+}
+
+#reglementation p {
+    color: #363D59;
+    padding-top : 30px;
+    font-size: 24px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 50px;
+
+}
+
+#rcl {
+    margin-top: 100px;
+    border-top: 2px #000000 solid;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 30%; 
+    padding-top: 2%;
+}
+
+.contact p {
+    color: #363D59;
+    padding-top : 30px;
+    font-size: 24px;
+    margin-bottom: 150px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'roboto';
+}
+
+
+
+p {
+    font-family: 'roboto';
+}
+
+
+
+
+@media (max-width: 1165px){
+    nav li a {
+        display : inline-block;
+        color :rgb(29, 25, 25);
+        font-size : 20px;
+        text-transform: uppercase;
+        text-decoration:none;
+        width: 200px;
+        margin-top: 0px;
+        padding : 15px 15px ; }
+
+    nav ul {
+        height: 100px;
+        padding-left : 0
+        }
+    
+}
+
+#CTA1 a{
+    position: relative;
+    border: 1px solid #363D59;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    background: #EEF4D4;
+    text-align: center;
+    color: #363D59;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: transform 0.3s ease;
+}
+
+
+
+#CTA2 a::after, #CTA2 a::before, #CTA1 a::after, #CTA1 a::before{
+content: "";
+position: absolute;
+opacity: 0.3;
+background: #EEF4D4;
+border-radius: inherit;
+width: 100%;
+height: 100%;
+left: 0;
+bottom: -1;
+z-index: -1;
+transition: transform 0.3s ease;
+color: #363D59;
+transition-delay: 150ms;
+
+}
+
+#CTA2 a:hover, #CTA1 a:hover {
+transform: translate(-12px, -12px);
+color: #000000;
+}
+
+#CTA2 a:hover::after, #CTA1 a:hover::after {
+transform: translate(6px, 6px);
+}
+
+#CTA2 a:hover::before, #CTA1 a:hover::before{
+transform: translate(12px, 12px);
+}
