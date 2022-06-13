@@ -1,0 +1,413 @@
+@keyframes zoom {
+	from { transform: scale(0); }
+	to { transform: scale(1); }
+}
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #069D6B;
+    padding : 45px 45px ; 
+    height: 100px;
+   
+}
+header h2 
+{
+padding-top: 20px;}
+
+.centre {
+    width:100%;
+    margin:auto;
+
+}
+
+.icon {
+    background: url(./img/icon.jpg)no-repeat;
+    background-size: 8%;
+
+}
+
+.icon1 {
+    background: url(./img/calais.png)no-repeat;
+    background-size: 6%;
+    position: relative;
+    left: 50px;
+    margin-right: 150px;
+}
+
+header a {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 43px;                         /*Modif*/ 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#footer {
+    background-color: #069D6B;
+    height: 100px;
+    padding: 20 45 ;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+#footer a {
+    text-decoration: none;
+    color: #EEF4D4;
+    font-size: 12px;
+}
+
+
+#footer #p {
+    color: #EEF4D4;
+    font-size: 12px;
+}
+
+#footer #p {
+    position: relative;
+    top: 40px;
+    left: 130px;
+    margin-right: 200px;
+}
+
+#minilogo {
+   padding-left: 75%;
+   position: relative;
+   bottom: 20px;
+
+}
+
+
+nav {
+    text-align: center;}
+
+nav ul {
+height: 80px;
+padding-left : 0
+}
+
+nav li {
+list-style-type: none;
+display: inline;
+padding-top: 10px;}
+
+
+nav li a {
+display : inline-block;
+color :rgb(15, 15, 15);
+font-size : 20px;
+text-transform: uppercase;
+text-decoration:none;
+width: 200px;
+margin-top: 0px;
+padding : 30px 15px ; 
+
+}
+
+
+
+.bloc_image {
+    background: url(./img/image2.jpg) center top no-repeat  ; 
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    transition: 250ms all ease;
+        animation-name: zoom;
+        animation-duration: 750ms;
+}
+
+.intro .oui {
+    position: relative;
+    padding-top : 110px;
+    padding-bottom: 200px;
+    color : white;
+    left: 10%;
+    margin-right: 500px;
+    line-height: 100px;
+    }
+
+.oui h1 {
+    font-size: 56px;
+}
+.oui p {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 100px;
+
+}
+
+
+.intro .introduc {
+    text-align: center;
+
+    
+}
+
+
+.bloc_bleu {
+    background-color: #363D59;
+    padding : 38px 38px ;
+    margin-top : 50px;
+}
+
+
+
+
+
+.img{  
+    position: relative;
+    font-size: 50px;
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    display: inline-block;
+    color:#fff;
+    font-weight:600;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
+    left: 49.5%;
+    bottom: 120px;
+}
+
+
+
+@media (max-width: 1165px){
+    nav li a {
+        display : inline-block;
+        color :rgb(29, 25, 25);
+        font-size : 20px;
+        text-transform: uppercase;
+        text-decoration:none;
+        width: 200px;
+        margin-top: 0px;
+        padding : 15px 15px ; }
+
+    nav ul {
+        height: 100px;
+        padding-left : 0
+        }
+    
+}
+
+form {
+    width: 40%;
+    height: 950px;
+    background-color:  #EEF4D4;
+    border-width: 1px;
+    border-style:solid;   
+    padding: 20px;
+    padding-bottom: 40px; 
+    margin-left: 31%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-top: 100px;
+    
+}
+
+label {
+    display: block;
+    margin: auto;
+    
+
+}
+
+#form input  {
+    display: block;
+    width: 80%;
+    height: 50px;
+    padding-left: 5px;
+}
+
+
+
+#nom {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+#prénom {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 10%;
+
+}
+
+#num_etu {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 10%;
+
+}
+#mail {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 10%;
+
+}
+
+#connect {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 25%;
+
+}
+
+#question {
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 10%;
+    
+}
+
+#question a{
+    font-size: 40px;
+    color: #fff;
+}
+
+#connect input {
+    color: #EEF4D4;
+}
+
+#form input.co {
+    background-color:#363D59;
+    border-radius: 50px;
+    width: 60%;
+}
+form h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.case {
+    padding-left: 50px;
+}
+
+
+label {
+    width: 150px;
+    display: inline-block;
+    font-family: 'roboto';
+}
+
+#case {
+    line-height: 10px;
+    padding-top: 5px;
+    padding-left: 10%;
+
+}
+
+#bloc_c {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+#contact {
+    padding-top: 5%;
+    border-top:solid 1px;
+    padding-bottom: 3%;
+}
+
+#info {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+
+
+
+#CTA1 a{
+    position: relative;
+    border: 1px solid #363D59;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    background: #EEF4D4;
+    text-align: center;
+    color: #363D59;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: transform 0.3s ease;
+}
+
+
+
+#CTA2 a::after, #CTA2 a::before, #CTA1 a::after, #CTA1 a::before{
+content: "";
+position: absolute;
+opacity: 0.3;
+background: #EEF4D4;
+border-radius: inherit;
+width: 100%;
+height: 100%;
+left: 0;
+bottom: -1;
+z-index: -1;
+transition: transform 0.3s ease;
+color: #363D59;
+transition-delay: 150ms;
+
+}
+
+#CTA2 a:hover, #CTA1 a:hover {
+transform: translate(-12px, -12px);
+color: #000000;
+}
+
+#CTA2 a:hover::after, #CTA1 a:hover::after {
+transform: translate(6px, 6px);
+}
+
+#CTA2 a:hover::before, #CTA1 a:hover::before{
+transform: translate(12px, 12px);
+}
+
+#souligne, #souligne1{
+    height: 20px;
+    transition: 1s;
+}
+
+#souligne:hover, #souligne1:hover {
+  background-color: #EEF4D4;
+  border-radius: 20px;
+}
+
+#souligne1{
+  text-decoration: underline;
+  text-decoration-color: #069D6B;
+}
+
+#bloc_c p {
+    font-family: 'roboto';
+    font-size: 24px;
+}
+
+#question p {
+    font-family: 'roboto';
+}
+
+h1 {
+    font-family: 'roboto';
+}
